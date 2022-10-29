@@ -1,4 +1,4 @@
-.price-tables {
+.page1 {
   display: flex;
   padding: 115px 132px;
   position: relative;
@@ -7,14 +7,40 @@
   background-color: #141b1c;
 }
 
-.price-table {
+.price-card {
   margin-right: 18px;
   width: 380px;
   height: 770px;
   background-color: #334247;
 }
-.price-table:last-child {
+.price-card:last-child {
   margin-right: 0px;
+}
+.price-card__title {
+  margin: 0;
+  margin: 33px 140px 0px 140px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+}
+.price-card__subtitle {
+  margin: 0;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+.price-card_basic-label {
+  background-color: #5BB189;
+}
+
+.price-card_business-label {
+  background-color: #3A6BA5;
+}
+
+.price-card_webshop-label {
+  background-color: #EC632A;
 }
 
 * {
