@@ -1,3 +1,22 @@
+.price-tables {
+  display: flex;
+  padding: 115px 132px;
+  position: relative;
+  width: 1440px;
+  height: 1000px;
+  background-color: #141b1c;
+}
+
+.price-table {
+  margin-right: 18px;
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+}
+.price-table:last-child {
+  margin-right: 0px;
+}
+
 * {
   box-sizing: border-box;
 }

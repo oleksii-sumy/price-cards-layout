@@ -1,0 +1,30 @@
+
+
+.price-tables {
+    display: flex;
+    padding: 115px 132px ;
+    position: relative;
+    width: 1440px;
+    height: 1000px;
+    background-color: $bgc-page;
+}
+.price-table {
+        margin-right: 18px;
+
+    width: 380px;
+    height: 770px;
+
+    background-color:$bgc-table ;
+
+&:last-child {
+            margin-right: 0px;
+
+}
+
+
+
+
+
+
+}   
+
