@@ -1,11 +1,10 @@
 @import 'variables.scss';
 @import 'table.scss';
 
-
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 html {
-    font-family: 'Montserrat' sans-serif;
-    color: $color-text-main;
+  font-family: 'Montserrat', sans-serif;
+  color: $color-text-main;
 }

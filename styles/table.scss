@@ -1,60 +1,91 @@
-
-
 .price-tables {
-    display: flex;
-    padding: 115px 132px ;
-    position: relative;
-    width: 1440px;
-    height: 1000px;
-    background-color: $bgc-page;
+  display: flex;
+  padding: 115px 132px;
+  position: relative;
+  width: 1440px;
+  height: 1000px;
+  background-color: $bgc-page;
 }
 .price-card {
-        margin-right: 18px;
-    width: 380px;
-    height: 770px;
-    background-color:$bgc-table ;
+  margin-right: 18px;
+  width: 380px;
+  height: 770px;
+  background-color: $bgc-table;
 
-&:last-child {
-            margin-right: 0px;
-}
+  &:last-child {
+    margin-right: 0px;
+  }
 
-&__title {
-    margin: 0;
-    margin: 33px 140px 0px 140px;
+  &__title {
+    display: flex;
+    flex-direction: column;
+    margin: 33px 140px;
     font-weight: 700;
-font-size: 35px;
-line-height: 43px;
-text-align: center;
-}
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+  }
 
-&__subtitle {
-    margin: 0;
-        font-weight: 300;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-}
+  &__subtitle {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
 
-&__price-label {
-
-}
-
-
-
-
-
-
-
-
-}   
-
-
-.price-card_basic-label {
+  &__price {
+    margin-bottom: 40px;
+    width: 380px;
+    height: 105px;
+    text-align: center;
+  }
+  &_basic-bgc {
     background-color: $bgc-basic-table;
-}
-.price-card_business-label {
+  }
+  &_business-bgc {
     background-color: $bgc-business-table;
+  }
+  &_webshop-bgc {
+    background-color: $bgc-webshop-table;
+  }
+  &_basic-price {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 105px;
+  }
+  &_business-price {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 105px;
+  }
+  &_webshop-price {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 105px;
+  }
+&__description {
+    margin: 0px 26px 40px 26px;
+    font-weight: 300;
+    line-height: 18px;
+font-size: 15px;
+text-align: center;
 }
-.price-card_webshop-label {
-        background-color: $bgc-webshop-table;
+&__options-list {
+    padding: 0;
+    margin-left: 22px;
+    margin-bottom: 50px;
+    list-style-type: none;
+}
+&__options-list-item {
+    display: flex;
+    align-items: center;
+    height: 50px;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+}
+&__checkmark-symbol {
+    margin-right: 22px;
+}
+
 }
