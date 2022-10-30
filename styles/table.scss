@@ -12,22 +12,22 @@
   width: 380px;
   height: 770px;
   background-color: $bgc-table;
-overflow: hidden;
+  overflow: hidden;
 
   &__popular-label {
     margin: 0;
     padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  left: 330px;
-  top: -35px;
-  width: 25px;
-  height: 147px;
-  line-height: 25px;
-  transform: rotate(-45deg);
-  background-color: $bgc-label;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 330px;
+    top: -825px;
+    width: 25px;
+    height: 147px;
+    line-height: 25px;
+    transform: rotate(-45deg);
+    background-color: $bgc-label;
   }
   &__label-text {
     transform: rotate(90deg);
@@ -37,7 +37,6 @@ overflow: hidden;
     text-align: center;
   }
 
- 
   &:last-child {
     margin-right: 0px;
   }
