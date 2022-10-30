@@ -97,6 +97,27 @@
   border-radius: 20px;
 }
 
+.popular-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 750px;
+  top: -35px;
+  width: 25px;
+  height: 147px;
+  line-height: 25px;
+  transform: rotate(-45deg);
+  background-color: #DC3F45;
+}
+.popular-label__label-text {
+  transform: rotate(90deg);
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+}
+
 * {
   box-sizing: border-box;
 }

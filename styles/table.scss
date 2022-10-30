@@ -63,41 +63,63 @@
     font-size: 55px;
     line-height: 105px;
   }
-&__description {
+  &__description {
     margin: 0px 26px 40px 26px;
     font-weight: 300;
     line-height: 18px;
-font-size: 15px;
-text-align: center;
-}
-&__options-list {
+    font-size: 15px;
+    text-align: center;
+  }
+  &__options-list {
     padding: 0;
     margin-left: 22px;
     margin-bottom: 50px;
     list-style-type: none;
-}
-&__options-list-item {
+  }
+  &__options-list-item {
     display: flex;
     align-items: center;
     height: 50px;
-font-weight: 300;
-font-size: 15px;
-line-height: 18px;
-}
-&__checkmark-symbol {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  &__checkmark-symbol {
     margin-right: 22px;
-}
-&__order-btn {
+  }
+  &__order-btn {
     margin: 0px 112px 40px 112px;
-width: 154px;
-height: 40px;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
-color: $color-text-main;
-border-radius: $border-radius;
-
+    width: 154px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: $color-text-main;
+    border-radius: $border-radius;
+  }
 }
 
+.popular-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 750px;
+    top: -35px;
+  width: 25px;
+  height: 147px;
+    line-height: 25px;
+  transform: rotate(-45deg);
+  background-color: $bgc-label;
+
+  &__label-text {
+      transform: rotate(90deg);
+    display: block;
+        font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+
+
+  }
 }
