@@ -85,6 +85,17 @@
 .price-card__checkmark-symbol {
   margin-right: 22px;
 }
+.price-card__order-btn {
+  margin: 0px 112px 40px 112px;
+  width: 154px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
+}
 
 * {
   box-sizing: border-box;

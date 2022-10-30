@@ -87,5 +87,17 @@ line-height: 18px;
 &__checkmark-symbol {
     margin-right: 22px;
 }
+&__order-btn {
+    margin: 0px 112px 40px 112px;
+width: 154px;
+height: 40px;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: $color-text-main;
+border-radius: $border-radius;
+
+}
 
 }
