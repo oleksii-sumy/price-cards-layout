@@ -1,5 +1,4 @@
 .price-tables {
-  margin: 0px;
   display: flex;
   margin: auto;
   padding: 115px 132px;
@@ -8,6 +7,8 @@
 }
 
 .price-card {
+  display: flex;
+  margin: auto;
   margin-right: 18px;
   position: relative;
   z-index: 1;

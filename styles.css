@@ -7,6 +7,8 @@
 }
 
 .price-card {
+  display: flex;
+  margin: auto;
   margin-right: 18px;
   position: relative;
   z-index: 1;
@@ -110,7 +112,7 @@
   line-height: 18px;
 }
 .price-card__options-list-item:nth-child(odd) {
-  background: #2a3438;
+  background: #2A3438;
 }
 .price-card__list-text {
   width: 300px;
@@ -138,7 +140,7 @@
 }
 
 html {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff;
 }
 
