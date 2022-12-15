@@ -15,26 +15,29 @@
   overflow: hidden;
 
   &__popular-label {
+    display: flex;
     margin: 0;
     padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 122px;
+    height: 123px;
     position: relative;
-    left: 330px;
-    top: -825px;
-    width: 25px;
-    height: 147px;
-    line-height: 25px;
-    transform: rotate(-45deg);
-    background-color: $bgc-label;
+    left: 307px;
+    top: -788px;
   }
+
   &__label-text {
-    transform: rotate(90deg);
+    margin: auto;
     display: block;
+    position: relative;
+    top: -10px;
+    left: -25px;
+    width: 100%;
+    line-height: 17px;
+    transform: rotate(45deg);
     font-weight: 700;
     font-size: 14px;
     text-align: center;
+    background-color: $bgc-label;
   }
 
   &:last-child {
@@ -98,24 +101,32 @@
   }
   &__options-list {
     padding: 0;
-    margin-left: 22px;
-    margin-bottom: 50px;
+    margin: 0;
     list-style-type: none;
   }
   &__options-list-item {
     display: flex;
     align-items: center;
+    width: 380px;
     height: 50px;
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
   }
+  &__options-list-item:nth-child(odd) {
+    background: $bgc-odd-list;
+  }
+  &__list-text {
+    width: 300px;
+    line-height: 18px;
+  }
   &__checkmark-symbol {
-    margin-right: 22px;
+    padding: 18px 22px 19px 22px;
   }
   &__order-btn {
-    margin: 0px 112px 40px 112px;
-    width: 154px;
+    margin: 39px 113.5px 40px 112px;
+    padding: 0;
+    width: 155px;
     height: 40px;
     font-weight: 400;
     font-size: 14px;
@@ -123,27 +134,6 @@
     text-align: center;
     color: $color-text-main;
     border-radius: $border-radius;
+    border: none;
   }
 }
-
-// .popular-label {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   position: relative;
-//   left: 750px;
-//   top: -35px;
-//   width: 25px;
-//   height: 147px;
-//   line-height: 25px;
-//   transform: rotate(-45deg);
-//   background-color: $bgc-label;
-
-//   &__label-text {
-//     transform: rotate(90deg);
-//     display: block;
-//     font-weight: 700;
-//     font-size: 14px;
-//     text-align: center;
-//   }
-// }
