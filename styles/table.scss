@@ -1,11 +1,12 @@
 body {
   display: flex;
+    background-color: $bgc-page;
+
 }
 .price-tables {
   display: flex;
     margin: auto;
   padding: 115px 132px;
-  background-color: $bgc-page;
 }
 .price-card {
   margin-right: 18px;

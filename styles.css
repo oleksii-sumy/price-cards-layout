@@ -1,12 +1,12 @@
 body {
   display: flex;
+  background-color: #141b1c;
 }
 
 .price-tables {
   display: flex;
   margin: auto;
   padding: 115px 132px;
-  background-color: #141b1c;
 }
 
 .price-card {
